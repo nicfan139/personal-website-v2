@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		overflow-x: hidden;
+		@apply text-white;
+		@apply bg-dark-blue;
+	}
+
+	/* Firefox */
+	body {
+		scrollbar-width: auto;
+		scrollbar-color: #e6e6e6 #ffffff;
+	}
+
+	body::-webkit-scrollbar {
+		width: 12px;
+	}
+
+	body::-webkit-scrollbar-thumb {
+		background-color: #e6e6e6;
+		border-radius: 10px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply font-bold;
+	}
+
+	h1 {
+		@apply text-4xl;
+		@apply mb-8;
+	}
+
+	h2 {
+		@apply text-2xl;
+	}
+
+	a {
+		@apply underline;
+	}
+
+	input:checked + .toggle-bg {
+		@apply bg-green;
+	}
+}

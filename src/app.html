@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.ico" />
+		%svelte.head%
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+	</head>
+	<body>
+		<div id="svelte">%svelte.body%</div>
+		<script>
+			VANTA.NET({
+				el: 'body',
+				mouseControls: true,
+				touchControls: true,
+				gyroControls: true,
+				scale: 1.0,
+				scaleMobile: 0.5,
+				color: 0x5c5c5c,
+				backgroundColor: 0x152e3c,
+				points: 15.0,
+				maxDistance: 18.0,
+				showDots: false
+			});
+		</script>
+	</body>
+</html>
