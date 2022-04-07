@@ -70,6 +70,11 @@ const SKILLS_UTILITY: LangSkill[] = [
 		iconClass: 'devicon-circleci-plain colored'
 	},
 	{
+		name: 'Sentry',
+		imgSrc: '/icons/sentry.png',
+		imgAlt: 'Sentry.io'
+	},
+	{
 		name: 'Heroku',
 		iconClass: 'devicon-heroku-plain colored'
 	},
