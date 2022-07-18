@@ -29,7 +29,7 @@
 		>
 			<Navbar />
 		</div>
-	
+
 		<div class="mobile:pt-20">
 			<PageTransition refresh={key}>
 				<slot />

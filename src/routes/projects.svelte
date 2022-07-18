@@ -5,7 +5,7 @@
 
 	let showContent = true;
 	let selectedProjectIndex = 0;
-  // eslint-disable-next-line
+	// eslint-disable-next-line
 	let modalContent: Project | null = null;
 
 	const toggleContent = () => {

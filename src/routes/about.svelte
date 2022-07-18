@@ -19,9 +19,9 @@
 
 		<Box white className="mobile:text-black mobile:bg-white mobile:bg-opacity-90">
 			<p class="mb-6">
-				Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with 3+ years of experience in
-				building highly-interactive software. Ranging from existing enterprise-level applications to
-				completely new software from scratch.
+				Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with 3+ years
+				of experience in building highly-interactive software. Ranging from existing
+				enterprise-level applications to completely new software from scratch.
 			</p>
 			<div class="flex mobile:flex-col items-center mb-6">
 				<p class="mobile:mb-2 desktop:mr-2">I'm currently based in Montreal, QC, Canada</p>
@@ -40,8 +40,8 @@
 				</div>
 			</div>
 			<p class="mb-6">
-				When I'm not coding you'll probably find me playing soccer, indulging in video games, thinking of my next travel destination, or
-				aimlessly surfing through the internet.
+				When I'm not coding you'll probably find me playing soccer, indulging in video games,
+				thinking of my next travel destination, or aimlessly surfing through the internet.
 			</p>
 			<p>
 				I'm happy at my current role as Front-End Engineer at HomeLight, though I'm always open to
