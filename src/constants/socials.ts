@@ -10,11 +10,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
 		tooltip: 'View GitHub profile'
 	},
 	{
-		href: 'https://www.gitlab.com/nicfan139',
-		className: 'devicon-gitlab-plain',
-		tooltip: 'View GitLab profile'
-	},
-	{
 		href: 'https://www.codepen.io/nicfan139',
 		className: 'fab fa-codepen',
 		tooltip: 'View code snippets on CodePen'

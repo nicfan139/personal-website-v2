@@ -17,21 +17,23 @@
 	<title>Nic Fan - Web Developer</title>
 	<meta
 		name="description"
-		content="Senior Web Developer specializing in React, TypeScript, and Next.js"
+		content="Experienced Web Developer specializing in React, TypeScript, and Next.js"
 	/>
 </svelte:head>
-<div
-	class="min-h-screen max-w-4xl mx-auto font-sans text-white mobile:text-center desktop:text-left"
->
+<div class="content overflow-y-scroll">
 	<div
-		class="z-10 mobile:shadow-sm mobile:fixed mobile:top-0 mobile:left-0 mobile:right-0 desktop:relative"
+		class="max-h-screen max-w-4xl mx-auto font-sans text-white mobile:text-center desktop:text-left"
 	>
-		<Navbar />
-	</div>
-
-	<div class="mobile:pt-20">
-		<PageTransition refresh={key}>
-			<slot />
-		</PageTransition>
+		<div
+			class="z-10 mobile:shadow-sm mobile:fixed mobile:top-0 mobile:left-0 mobile:right-0 desktop:relative"
+		>
+			<Navbar />
+		</div>
+	
+		<div class="mobile:pt-20">
+			<PageTransition refresh={key}>
+				<slot />
+			</PageTransition>
+		</div>
 	</div>
 </div>

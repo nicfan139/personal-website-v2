@@ -19,7 +19,7 @@
 
 		<Box white className="mobile:text-black mobile:bg-white mobile:bg-opacity-90">
 			<p class="mb-6">
-				Hi! I'm a Full-Stack Engineer/Developer with a preference for Front-End, experienced in
+				Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with 3+ years of experience in
 				building highly-interactive software. Ranging from existing enterprise-level applications to
 				completely new software from scratch.
 			</p>
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<p class="mb-6">
-				When I'm not coding you'll probably find me playing soccer, indulging in video games, or
+				When I'm not coding you'll probably find me playing soccer, indulging in video games, thinking of my next travel destination, or
 				aimlessly surfing through the internet.
 			</p>
 			<p>
@@ -50,7 +50,7 @@
 		</Box>
 	</Box>
 
-	<Box>
+	<Box className="mb-6">
 		<h2 class="mb-4">Skills & Expertise</h2>
 		<Box white className="mobile:text-black mobile:bg-white mobile:bg-opacity-90">
 			<div class="mb-6">

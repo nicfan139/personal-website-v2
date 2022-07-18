@@ -35,7 +35,7 @@
 
 		<!-- Project list view - Desktop -->
 		<div
-			class="mobile:hidden tablet:flex desktop:flex min-h-12 w-full rounded-lg bg-white bg-opacity-50"
+			class="mobile:hidden tablet:flex desktop:flex min-h-12 w-full mb-10 rounded-lg bg-white bg-opacity-50"
 		>
 			<div class="w-60">
 				{#each PROJECT_LIST as project, i}

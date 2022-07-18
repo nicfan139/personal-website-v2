@@ -7,7 +7,7 @@
 	<h1>Nic Fan</h1>
 
 	<p class="text-xl mb-8">
-		Front-End Web Developer with expertise in React, Next.js and TypeScript
+		Front-End Developer with expertise in React, TypeScript, Next.js and more!
 	</p>
 
 	<div

@@ -4,22 +4,25 @@
 
 @layer base {
 	body {
+		overflow: hidden;
+	}
+
+	.content {
 		overflow-x: hidden;
 		@apply text-white;
-		@apply bg-dark-blue;
 	}
 
 	/* Firefox */
-	body {
+	.content {
 		scrollbar-width: auto;
 		scrollbar-color: #e6e6e6 #ffffff;
 	}
 
-	body::-webkit-scrollbar {
+	.content::-webkit-scrollbar {
 		width: 12px;
 	}
 
-	body::-webkit-scrollbar-thumb {
+	.content::-webkit-scrollbar-thumb {
 		background-color: #e6e6e6;
 		border-radius: 10px;
 	}
