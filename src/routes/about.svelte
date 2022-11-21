@@ -7,6 +7,11 @@
 	const toggleContent = () => {
 		showContent = !showContent;
 	};
+
+	const getYears = () => {
+		const currentYear = new Date().getFullYear();
+		return currentYear - 2018;
+	};
 </script>
 
 <svelte:head>
@@ -19,33 +24,34 @@
 
 		<Box white className="mobile:text-black mobile:bg-white mobile:bg-opacity-90">
 			<p class="mb-6">
-				Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with 3+ years
-				of experience in building highly-interactive software. Ranging from existing
+				Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with {getYears()}+
+				years of experience in building highly-interactive software. Ranging from existing
 				enterprise-level applications to completely new software from scratch.
 			</p>
 			<div class="flex mobile:flex-col items-center mb-6">
-				<p class="mobile:mb-2 desktop:mr-2">I'm currently based in Montreal, QC, Canada</p>
-				<img src="/icons/flag-ca.svg" alt="flag-ca" class="h-8 w-10" />
+				<p class="mobile:mb-2 desktop:mr-2">A Canadian currently based in Vancouver, BC</p>
+				<img src="/icons/flag-ca.svg" alt="flag-ca" class="h-8 w-10 mr-2" />
+				<p class="mobile:mb-2 desktop:mr-2">- though I love to travel while working remotely!</p>
 			</div>
 			<div class="mb-6">
 				<p class="mb-2">
-					Though I come form a diverse background - having previously lived in Hong Kong, Malaysia,
-					England, and Australia.
+					Origingally, I come form a diverse background - having previously lived in Malaysia, Hong
+					Kong, Australia, and England.
 				</p>
 				<div class="flex space-x-2 mobile:justify-center">
-					<img src="/icons/flag-hk.svg" alt="flag-hk" class="max-h-none h-8 max-w-none w-10" />
 					<img src="/icons/flag-my.svg" alt="flag-my" class="max-h-none h-8 max-w-none w-10" />
+					<img src="/icons/flag-hk.svg" alt="flag-hk" class="max-h-none h-8 max-w-none w-10" />
 					<img src="/icons/flag-au.svg" alt="flag-au" class="max-h-none h-8 max-w-none w-10" />
 					<img src="/icons/flag-en.svg" alt="flag-en" class="max-h-none h-8 max-w-none w-10" />
 				</div>
 			</div>
 			<p class="mb-6">
 				When I'm not coding you'll probably find me playing soccer, indulging in video games,
-				thinking of my next travel destination, or aimlessly surfing through the internet.
+				discovering new restaurants and bars, thinking of my next travel destination, or aimlessly
+				surfing through the internet.
 			</p>
 			<p>
-				I'm happy at my current role as Front-End Engineer at HomeLight, though I'm always open to
-				new opportunities and ventures to enhance my skills as a web developer!
+				I'm always open to exploring new opportunities to enhance my skills as a software developer!
 			</p>
 		</Box>
 	</Box>

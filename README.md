@@ -16,6 +16,4 @@ Using [SemVer](http://semver.org/) for versioning
 
 ## Authors
 
-- **Nicolas Fan**:
-  - [GitHub](https://github.com/nicfan139)
-  - [GitLab](https://gitlab.com/nicfan139)
+- **[Nicolas Fan](https://github.com/nicfan139)**:
