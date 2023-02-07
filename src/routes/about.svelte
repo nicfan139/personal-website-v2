@@ -26,7 +26,9 @@
 			<p class="mb-6">
 				Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with {getYears()}+
 				years of experience in building highly-interactive software. Ranging from existing
-				enterprise-level applications to completely new software from scratch.
+				enterprise-level applications to completely new software from scratch. I've worked in
+				various industries from startups to fast-growing companies - including currency exchange, HR
+				tech, as well as real estate fintech.
 			</p>
 			<div class="flex mobile:flex-col items-center mb-6">
 				<p class="mobile:mb-2 desktop:mr-2">A Canadian currently based in Vancouver, BC</p>
@@ -46,9 +48,9 @@
 				</div>
 			</div>
 			<p class="mb-6">
-				When I'm not coding you'll probably find me playing soccer, indulging in video games,
-				discovering new restaurants and bars, thinking of my next travel destination, or aimlessly
-				surfing through the internet.
+				When I'm not coding you'll probably find me playing soccer, bass guitar, indulging in video
+				games, discovering new restaurants and bars, thinking of my next travel destination, or
+				aimlessly surfing through the internet.
 			</p>
 			<p>
 				I'm always open to exploring new opportunities to enhance my skills as a software developer!

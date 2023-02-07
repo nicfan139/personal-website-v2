@@ -24,6 +24,14 @@ const SKILLS_PRIMARY: LangSkill[] = [
 		iconClass: 'devicon-svelte-plain colored'
 	},
 	{
+		name: 'GraphQL',
+		iconClass: 'devicon-graphql-plain colored'
+	},
+	{
+		name: 'Apollo',
+		imgSrc: '/icons/apollo.svg'
+	},
+	{
 		name: 'HTML',
 		iconClass: 'devicon-html5-plain colored'
 	},
@@ -92,6 +100,14 @@ const SKILLS_UTILITY: LangSkill[] = [
 
 const SKILLS_OTHER: LangSkill[] = [
 	{
+		name: 'Node.js',
+		iconClass: 'devicon-nodejs-plain colored'
+	},
+	{
+		name: 'Express',
+		iconClass: 'devicon-express-original colored'
+	},
+	{
 		name: 'MobX',
 		imgSrc: '/icons/mobx.png',
 		imgAlt: 'MobX'
@@ -99,14 +115,6 @@ const SKILLS_OTHER: LangSkill[] = [
 	{
 		name: 'Gatsby',
 		iconClass: 'devicon-gatsby-plain colored'
-	},
-	{
-		name: 'Node.js',
-		iconClass: 'devicon-nodejs-plain colored'
-	},
-	{
-		name: 'Express',
-		iconClass: 'devicon-express-original colored'
 	},
 	{
 		name: 'MongoDB',
