@@ -69,6 +69,10 @@ const SKILLS_UTILITY: LangSkill[] = [
 		imgAlt: 'Cypress.io'
 	},
 	{
+		name: 'Storybook',
+		iconClass: 'devicon-storybook-plain colored'
+	},
+	{
 		name: 'React Query',
 		imgSrc: '/icons/react-query.svg',
 		imgAlt: 'react-query'
