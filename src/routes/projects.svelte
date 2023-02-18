@@ -50,7 +50,7 @@
 								selectedProjectIndex === i ? 'visible' : 'invisible'
 							}`}
 						/>
-						<span class="ml-4">
+						<span class="ml-4 font-semibold">
 							{project.name}
 						</span>
 					</div>
@@ -79,14 +79,20 @@
 									href={PROJECT_LIST[selectedProjectIndex].siteUrl}
 									className="w-full mb-4"
 								>
-									<span>View site</span>
+									<div class="text-lg">
+										<i class="fas fa-eye mr-1" />
+										<span>View site</span>
+									</div>
 									<i class="fas fa-arrow-right" />
 								</ButtonLink>
 							{/if}
 
 							{#if PROJECT_LIST[selectedProjectIndex].repoUrl}
 								<ButtonLink href={PROJECT_LIST[selectedProjectIndex].repoUrl} className="w-full">
-									<span>View repo</span>
+									<div class="text-lg">
+										<i class="fab fa-github mr-1" />
+										<span>View repo</span>
+									</div>
 									<i class="fas fa-arrow-right" />
 								</ButtonLink>
 							{/if}
@@ -117,7 +123,7 @@
 					<i class="fas fa-times" />
 				</div>
 				<div class="py-12 px-6">
-					<h2 class="mb-4">{modalContent.name}</h2>
+					<h2 class="mb-4 text-4xl">{modalContent.name}</h2>
 
 					<div
 						class="h-60 w-full mb-4 bg-cover bg-center"
@@ -129,14 +135,20 @@
 					<div class="flex flex-col">
 						{#if modalContent.siteUrl}
 							<ButtonLink href={modalContent.siteUrl} className="justify-center my-4 px-8 py-4">
-								<span>View site</span>
+								<div class="text-lg">
+									<i class="fas fa-eye mr-1" />
+									<span>View site</span>
+								</div>
 								<i class="fas fa-arrow-right" />
 							</ButtonLink>
 						{/if}
 
 						{#if modalContent.repoUrl}
 							<ButtonLink href={modalContent.repoUrl} className="justify-center px-8 py-4">
-								<span>View repo</span>
+								<div class="text-lg">
+									<i class="fab fa-github mr-1" />
+									<span>View repo</span>
+								</div>
 								<i class="fas fa-arrow-right" />
 							</ButtonLink>
 						{/if}

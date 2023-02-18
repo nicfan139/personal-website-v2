@@ -6,7 +6,7 @@
 <Box>
 	<h1>Nic Fan</h1>
 
-	<p class="text-xl mb-8">Web Developer with expertise in React, TypeScript, Next.js and more!</p>
+	<p class="text-xl mb-8">Web Developer specializing in React, TypeScript, Next.js and more!</p>
 
 	<div
 		class="mobile:max-w-xs flex mobile:flex-col desktop:flex-row mobile:mx-auto mobile:space-y-4 desktop:space-x-4"

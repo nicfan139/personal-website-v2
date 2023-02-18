@@ -14,7 +14,7 @@
 	{#if iconClass}
 		<i class={`${iconClass} text-4xl`} />
 	{/if}
-	<span class="ml-3">
+	<span class="ml-3 font-semibold">
 		{name}
 	</span>
 </Box>
