@@ -26,7 +26,7 @@
 </script>
 
 <svelte:head>
-	<title>Projects | Nic Fan - Web Developer</title>
+	<title>Projects | Nicolas Fan - Web Developer</title>
 </svelte:head>
 
 <ContentToggle {showContent} on:toggle={toggleContent}>

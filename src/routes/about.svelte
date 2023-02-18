@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>About Me | Nic Fan - Web Developer</title>
+	<title>About Me | Nicolas Fan - Web Developer</title>
 </svelte:head>
 
 <ContentToggle {showContent} on:toggle={toggleContent}>
@@ -24,7 +24,7 @@
 
 		<Box
 			white
-			className="mobile:text-black mobile:bg-white mobile:bg-opacity-90 mobile:hover:bg-opacity-90"
+			className="py-6 mobile:text-black mobile:bg-white mobile:bg-opacity-90 mobile:hover:bg-opacity-90"
 		>
 			<div class="mb-6 mobile:mb-8">
 				<p class="mb-2 mobile:mb-4">
@@ -73,6 +73,15 @@
 				games, discovering new restaurants and bars, thinking of my next travel destination, or
 				aimlessly surfing through the internet.
 			</p>
+
+			<p class="mb-6">
+				To view my full resume, <a
+					href="https://drive.google.com/file/d/1J_pEVnXlsIWAYKQ7hEGfvF79qnrUm4kH/view"
+					target="_blank"
+					rel="noopener noreferrer">click here</a
+				>.
+			</p>
+
 			<p>
 				I'm always open to exploring new opportunities to enhance my skills as a software developer!
 			</p>
@@ -97,9 +106,9 @@
 			<div class="my-4 border border-black border-opacity-10" />
 
 			<div>
-				<h3 class="mb-2 text-xl">Utility Libraries/Software</h3>
+				<h3 class="mb-2 text-xl">Other Languages and Libraries</h3>
 				<div class="flex flex-wrap mobile:justify-center">
-					{#each SKILLS.UTILITY as skill}
+					{#each SKILLS.OTHER as skill}
 						<LangIcon {...skill} />
 					{/each}
 				</div>
@@ -108,9 +117,9 @@
 			<div class="my-4 border border-black border-opacity-10" />
 
 			<div>
-				<h3 class="mb-2 text-xl">Other</h3>
+				<h3 class="mb-2 text-xl">Utility Libraries/Software</h3>
 				<div class="flex flex-wrap mobile:justify-center">
-					{#each SKILLS.OTHER as skill}
+					{#each SKILLS.UTILITY as skill}
 						<LangIcon {...skill} />
 					{/each}
 				</div>

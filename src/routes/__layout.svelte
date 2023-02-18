@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Nic Fan - Web Developer</title>
+	<title>Nicolas Fan - Web Developer</title>
 	<meta
 		name="description"
 		content="Experienced Web Developer specializing in React, TypeScript, and Next.js"
