@@ -67,9 +67,10 @@
 					class="mb-6"
 				/>
 				<div class="flex">
-					<div
-						class="project-img bg-cover bg-center"
-						style={`background-image: url(${PROJECT_LIST[selectedProjectIndex].imgSrc})`}
+					<img
+						src={PROJECT_LIST[selectedProjectIndex].imgSrc}
+						alt={PROJECT_LIST[selectedProjectIndex].imgSrc}
+						class="h-full w-full max-w-md mb-4 bg-cover bg-center border object-cover"
 					/>
 
 					<div class="w-52 flex flex-col items-start ml-6">
@@ -125,9 +126,10 @@
 				<div class="py-12 px-6">
 					<h2 class="mb-4 text-4xl">{modalContent.name}</h2>
 
-					<div
-						class="h-60 w-full mb-4 bg-cover bg-center"
-						style={`background-image: url(${modalContent.imgSrc})`}
+					<img
+						src={modalContent.imgSrc}
+						alt={modalContent.imgSrc}
+						class="h-full w-full mb-4 bg-cover bg-center object-cover"
 					/>
 
 					<div contenteditable="false" bind:innerHTML={modalContent.desc} class="mb-4" />

@@ -76,7 +76,7 @@
 
 			<p class="mb-6">
 				To view my full resume, <a
-					href="https://drive.google.com/file/d/1J_pEVnXlsIWAYKQ7hEGfvF79qnrUm4kH/view"
+					href="https://drive.google.com/file/d/1mNTVIXZPichCR3S4N_gU3yAEZ7RaigAa/view?usp=sharing"
 					target="_blank"
 					rel="noopener noreferrer">click here</a
 				>.

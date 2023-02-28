@@ -1,7 +1,14 @@
 export const PROJECT_LIST: Array<Project> = [
 	{
+		name: 'Scenerygram',
+		desc: 'Instagram-like social app for sharing scenic photos, built for fun. Built with React + TypeScript + GraphQL + Node.js + Express + PostgreSQL.',
+		siteUrl: 'https://scenerygram.vercel.app',
+		repoUrl: 'https://github.com/nicfan139/scenerygram',
+		imgSrc: '/pictures/project_scenerygram.png'
+	},
+	{
 		name: 'Slacklite',
-		desc: 'Chat app built for fun, using Next.js + TypeScript + GraphQL + Node.js + Express.',
+		desc: 'Chat app built for fun, using Next.js + TypeScript + GraphQL + Node.js + Express + PostgreSQL.',
 		siteUrl: 'https://slacklite-client.vercel.app',
 		repoUrl: 'https://github.com/nicfan139/slacklite',
 		imgSrc: '/pictures/project_slacklite.png'
