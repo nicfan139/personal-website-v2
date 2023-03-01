@@ -7,11 +7,6 @@
 	const toggleContent = () => {
 		showContent = !showContent;
 	};
-
-	const getYears = () => {
-		const currentYear = new Date().getFullYear();
-		return currentYear - 2018;
-	};
 </script>
 
 <svelte:head>
@@ -28,8 +23,8 @@
 		>
 			<div class="mb-6 mobile:mb-8">
 				<p class="mb-2 mobile:mb-4">
-					Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with {getYears()}+
-					years of experience in building highly-interactive software. Ranging from existing
+					Hi! I'm a Full-Stack Web Developer with a preference for the Front-End side, with 4+ years
+					of experience in building highly-interactive software. Ranging from existing
 					enterprise-level applications to completely new software from scratch.
 				</p>
 				<p>
