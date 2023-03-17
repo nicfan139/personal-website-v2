@@ -1,5 +1,12 @@
 export const PROJECT_LIST: Array<Project> = [
 	{
+		name: 'AgileScope',
+		desc: 'Project management dashboard concept for easy organization of projects, sprints, tasks, and teams. Built with Gatsby.js + TypeScript + Node.js + Express + MongoDB.',
+		siteUrl: 'https://agilescope.netlify.app/',
+		repoUrl: 'https://github.com/nicfan139/agilescope',
+		imgSrc: '/pictures/project_agilescope.png'
+	},
+	{
 		name: 'Scenerygram',
 		desc: 'Instagram-like social app for sharing scenic photos, built for fun. Built with React + TypeScript + GraphQL + Node.js + Express + PostgreSQL.',
 		siteUrl: 'https://scenerygram.vercel.app',
