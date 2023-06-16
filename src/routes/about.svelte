@@ -44,13 +44,13 @@
 					<div class="flex items-center mobile:justify-center mb-2 mobile:mb-4">
 						<img src="/icons/flag-ca.svg" alt="flag-ca" class="h-16 w-16 mr-4" />
 						<div class="flex flex-col items-start">
-							<p class="desktop:mr-2">Canadian based in Vancouver, BC.</p>
+							<p class="desktop:mr-2">I'm a Canadian developer currently based in Vancouver, BC.</p>
 							<p>Though I love to travel while working remotely!</p>
 						</div>
 					</div>
 					<div>
 						<p class="mb-2">
-							Origingally, I come form a diverse background - having previously lived in Malaysia,
+							I originally come from a diverse background - having previously lived in Malaysia,
 							Hong Kong, Australia, and England.
 						</p>
 						<div class="flex space-x-2 mobile:justify-center">
